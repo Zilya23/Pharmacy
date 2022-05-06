@@ -44,7 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Drug.cs" />
+    <Compile Include="DrugInPharm.cs" />
     <Compile Include="Manufacture.cs" />
+    <Compile Include="Pharm.cs" />
+    <Compile Include="Pharmacists.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

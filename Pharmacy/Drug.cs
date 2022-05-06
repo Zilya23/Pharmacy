@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pharmacy
 {
-    class Drug
+    public class Drug
     {
         public int ID { get; set; }
         public string Name { get; set; }
@@ -19,7 +19,9 @@ namespace Pharmacy
             {
                 new Drug { ID = 1, Name = "Фенибут", IdManufacturer = 1, Price = 490},
                 new Drug { ID = 2, Name = "Смекта", IdManufacturer = 2, Price = 765},
-                new Drug { ID = 3, Name = "Рокона", IdManufacturer = 3, Price = 1056}
+                new Drug { ID = 3, Name = "Рокона", IdManufacturer = 3, Price = 1056},
+                new Drug { ID = 4, Name = "Зодак", IdManufacturer = 2, Price = 155},
+                new Drug { ID = 5, Name = "Лейкопластырь", IdManufacturer = 3, Price = 56}
             };
         }
 
