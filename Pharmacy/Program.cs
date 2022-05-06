@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace Pharmacy
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            string expenc = Drug.ExpensiveDrug();
+            Console.WriteLine(expenc);
+            Console.ReadKey();
         }
     }
 }

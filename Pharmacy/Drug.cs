@@ -50,5 +50,11 @@ namespace Pharmacy
         {
             return GetDrug().OrderByDescending(a => a.Price).ToList();
         }
+
+        public static string ExpensiveDrug()
+        {
+            var expensive = GetDrug().OrderByDescending(a => a.Price).ToList();
+            return expensive[0].Name;
+        }
     }
 }
